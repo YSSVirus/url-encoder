@@ -18,4 +18,15 @@ git clone https://github.com/YSSVirus/url-encoder.git
 
 cd url-encoder
 
+pip install -r requirements.txt
+
 python3 url-encoder.py
+
+(if you want to be able to use it straight from command line add the following line into your ~/.bashrc file or if you use qterminal its ~/.zshrc)
+alias url-encoder='python3 {full path to script file}'
+
+if you do this then you willl be able to call the scrript like this
+
+url-encoder
+
+-YSSVirus
